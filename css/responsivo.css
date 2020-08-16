@@ -1,0 +1,38 @@
+@media screen and (max-width: 1280px){
+
+}
+
+@media screen and (max-width: 970px){
+    #todo-el-contenido{
+        width: 100%;
+
+    }
+}
+
+@media screen and (max-width: 767px){
+
+}
+
+@media screen and (max-width: 600px){
+
+}
+
+@media screen and (max-width: 400px){
+    #todo-el-contenido{
+        width: 100%;
+    }
+    #sliderinicio{
+        width: 320px;
+        height: 40px;
+    }
+
+
+    #apartado_telefonos{
+        width: 350px;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 300px){
+
+}

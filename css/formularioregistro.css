@@ -1,0 +1,14 @@
+body{
+      margin: 0;
+      padding: 0;
+      background: url(registrarse.jpg);
+      background-size: cover;
+      background-position: center;
+}
+
+#formulario{
+     
+      padding-left: 350px;
+     
+}
+

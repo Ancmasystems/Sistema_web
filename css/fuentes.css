@@ -1,0 +1,29 @@
+@font-face{
+    font-family:"Montserrat-Black";
+    src: url("Fuentes/Montserrat-Black.ttf")
+}
+
+@font-face{
+    font-family:"Asap-Bold";
+    src: url("Fuentes/Asap-Bold.ttf")
+}
+
+@font-face{
+    font-family:"CabinCondensed-Bold";
+    src: url("Fuentes/CabinCondensed-Bold.ttf")
+}
+
+@font-face{
+    font-family:"Alegreya-Black";
+    src: url("Fuentes/Alegreya-Black.ttf")
+}
+@font-face{
+    font-family:"AvertaDemoPE-ExtraBold";
+    src: url("Fuentes/AvertaDemoPE-ExtraBold.otf")
+}
+
+
+*{
+    font-family: Helvetica, sans-serif;
+}
+

@@ -1,0 +1,36 @@
+/* FUENTES DE SLIDER */
+#titulo_inicio{
+    font-family: monospace; 
+}
+/* TAMAÑO ICONOS DE SECCION QUE TE OFRECEMOS */
+.icon-block .material-icons {
+	font-size: inherit;
+}
+/* fuente de  id titulo_queteofrecemos */
+#titulo_queteofrecemos{
+    font-family: colibri, sans-serif;
+
+}
+
+/* paralax */
+#paralaxfinal{
+    width: 100%;
+    height: 400px;
+}
+
+#left-sidebar-nav{
+    margin-left: 10px;
+    margin-top: 100px;
+    
+    height: 100px ;
+}
+
+#tarjetas{
+    background-color: #fbfbfb;
+    padding: 10px;
+}
+
+#formulario_encuesta{
+   margin-right: 400px;
+   margin-left: 350px;
+}
