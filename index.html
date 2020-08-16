@@ -1,0 +1,930 @@
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- HEAD delimita la cabecera del documento -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="ancma systems" content="tienda ancma systems">
+    <meta name="Tienda online" content="El mejor sitio de ventas de tecnologia">
+    <title>Ancma Systems</title>
+    <!-- ARCHIVOS externos de  CSS -->
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/fuentes.css">
+
+    <!-- Enlaces de framework materialize inicializacion  -->
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"> -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- icono de la pagina web -->
+    <link rel="shortcut icon" href="icono.ico" type="image/x-icon">
+
+</head>
+
+<body class="grey lighten-3">
+
+    <nav role="navigation">
+        <!-- Menu de navegacion  -->
+        <!-- INICIO DE MENU DE NAVEGACION -->
+        <div class="nav-wrapper navbar-fixed nav-extended">
+            <nav class="b teal darken-3">
+                <!-- NOMBRE Y LOGO DE PAGINA  -->
+                <a id="logo-container" href="#" class="brand-logo">
+                    <i class="material-icons">add_shopping_cart</i>Ancma systems</a>
+                <!-- MENU DE NAVEGACION-->
+                <div class="nav-wrapper">
+                    <!-- Inicio de apartados -->
+                    <a href="#" data-target="nav_resposivo" class="sidenav-trigger">
+                        <i class="material-icons">menu</i></a>
+
+                    <!-- Categorias -->
+                    <ul class="right hide-on-med-and-down">
+
+                         <!-- INICIO -->
+                        <li><a href="index.html" class="btn-small waves-effect waves-light pink">Inicio</a></li>
+                        <!-- CATEGORIAS -->
+                        <li><a class="btn-small dropdown-trigger pink" href="#" data-target="categorias"
+                                class="waves-effect" data-beloworigin="true">Categorias....
+                                <i class="material-icons right">arrow_drop_down</i></a>
+                            <ul id="categorias" class="dropdown-content">
+                                <li><a href="html/cat-laptos.html" class="waves-effect waves-red"><i
+                                            class="material-icons">laptop_windows</i>Laptos</a></li>
+                                <li class="divider"></li>
+                                <li><a href="html/cat-telefonos.html" class="waves-effect waves-red"><i
+                                            class="material-icons">camera_front</i>Telefonos</a></li>
+                                <li class="divider"></li>
+                                <li><a href="html/cat-audifonos.html" class="waves-effect waves-red"><i
+                                            class="material-icons">headset</i>Audifonos</a></li>
+                                <li class="divider"></li>
+                                <li><a href="html/cat-teclados.html" class="waves-effect waves-red"><i
+                                            class="material-icons">keyboard</i>Teclados</a></li>
+                                <li class="divider"></li>
+                                <li><a href="html/cat-impresoras.html" class="waves-effect waves-red"><i
+                                            class="material-icons">local_printshop</i>Impresoras</a></li>
+                                <li class="divider"></li>
+                                <li><a href="html/cat-mouse.html" class="waves-effect waves-red"><i
+                                            class="material-icons">mouse</i>Mouses</a></li>
+                                <li class="divider"></li>
+
+                            </ul> <!-- fin de categorias -->
+                        </li>
+                        <!-- Encuesta -->
+                        <li><a href="Encuesta.html" class="btn-small waves-effect waves-light pink">Encuesta</a></li>
+                        <!-- Inico Apartado Login-Iniciar sesion y registrarse -->
+                        <!--INICIAR SESION-->
+                        <li><a class='btn-small dropdown-trigger pink' href='' data-target='login'
+                                class="waves-effect waves-light">Iniciar sesion...<i
+                                    class="material-icons right">arrow_drop_down</i></a>
+
+                            <!--MENU DESPLEGABLE-INICIAR SESION -->
+                            <ul id='login' class='dropdown-content'>
+
+                                <li> <a href="login.html" class="modal-trigger waves-effect waves-red">
+                                        <i class="material-icons">contacts</i>Iniciar sesion</a></li>
+                                <li class="divider" tabindex="-1"></li>
+                                <li><a href="registro.html" class="waves-effect waves-red">
+                                        <i class="material-icons">library_books</i>Registrarse</a></li>
+
+                            </ul>
+                        </li><!--  Fin de Apartado Login-Iniciar sesion y registrarse -->
+
+                        <!-- SOBRE NOSOTROS -->
+                        <li><a href="sobre_nosotros.html"
+                                class="btn-small waves-effect waves-light  white black-text">Sobre
+                                Nosotros</a></li>
+                    </ul>
+                </div>
+            </nav>
+    </nav> <!-- FIN Menu de navegacion  -->
+
+
+    <!-- INICIO  MENU DE BUSQUEDA  -->
+
+    <!-- menu de busqueda -->
+    <nav>
+        <div class="nav-wrapper black">
+
+            <form>
+                <div class="input-field">
+                    <div class="row">
+                        <div class="col s12">
+                            <input id="search" type="search" required="" placeholder="Buscar..." class="blue-text">
+                            <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                            <i class="material-icons">close</i>
+                        </div>
+
+                    </div>
+
+                </div>
+            </form>
+        </div>
+
+        </div>
+    </nav> <!-- FIN MENU DE BUSQUEDA -->
+
+
+    <!-- MENU DE NAVEGACION RESPONSIVO PARA TELEFONO -->
+
+    <ul class="sidenav" id="nav_resposivo">
+        <a id="logo-container" href="#" class="brand-logo">
+            <i class="material-icons">add_shopping_cart</i>Ancma Systems</a>
+
+        <li><a href="index.html" class="btn-small waves-effect waves-light pink">Inicio</a></li>
+        <!-- CATEGORIAS -->
+        <li><a class="btn-small dropdown-trigger pink" href="#" data-target="categorias_responsivo" class="waves-effect"
+                data-beloworigin="true">Categorias....
+                <i class="material-icons right">arrow_drop_down</i></a>
+            <ul id="categorias_responsivo" class="dropdown-content">
+                <li><a href="html/cat-laptos.html" class="waves-effect waves-red"><i
+                            class="material-icons">laptop_windows</i>Laptos</a>
+                </li>
+                <li class="divider"></li>
+                <li><a href="html/cat-telefonos.html" class="waves-effect waves-red"><i class="material-icons">camera_front</i>Telefonos</a> </li>
+                <li class="divider"></li>
+                <li><a href="html/cat-audifonos.html" class="waves-effect waves-red"><i  class="material-icons">headset</i>Audifonos</a></li>
+                <li class="divider"></li>
+                <li><a href="html/cat-teclados.html" class="waves-effect waves-red"><i class="material-icons">keyboard</i>Teclados</a></li>
+                <li class="divider"></li>
+                <li><a href="html/cat-impresoras.html" class="waves-effect waves-red"><i class="material-icons">local_printshop</i>Impresora</a></li>
+                <li class="divider"></li>
+                <li><a href="html/cat-mouse.html" class="waves-effect waves-red"><i  class="material-icons">mouse</i>Mouses</a></li>
+                <li class="divider"></li>
+
+            </ul> <!-- fin de categorias -->
+        </li>
+        <!-- Encuesta -->
+        <li><a href="Encuesta.html" class="btn-small waves-effect waves-light pink">Encuesta</a></li>
+        <!-- Inico Apartado Login-Iniciar sesion y registrarse -->
+        <!--INICIAR SESION-->
+
+        <li><a class='btn-small dropdown-trigger pink' href='#' data-target='login_responsivo'
+                class="waves-effect waves-light" data-beloworigin="true">Iniciar sesion<i
+                    class="material-icons right">arrow_drop_down</i></a>
+
+            <!--MENU DESPLEGABLE-INICIAR SESION -->
+
+            <ul id='login_responsivo' class='dropdown-content'>
+
+
+                <li><a href="login.html" class="waves-effect waves-red">
+                        <i class="material-icons">contacts</i>Iniciar sesion</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="registro.html" class="waves-effect waves-red"><i
+                            class="material-icons">library_books</i>Registrarse</a></li>
+
+            </ul>
+        </li><!--  Fin de Apartado Login-Iniciar sesion y registrarse -->
+
+        <!-- SOBRE NOSOTROS -->
+        <li><a href="sobre_nosotros.html" class="btn-small waves-effect waves-light  cyan darken-1 black-text">Sobre
+                Nosotros</a></li>
+        
+    </ul> <!-- FIN DE MENU RESPONSIVO -->
+
+
+
+
+    <div id="todo-el-contenido">
+   <!-- SLIDER UWU -->
+        <div class="row" id="sliderinicio">
+            <div class="com  s12 m12 l12">
+
+                <section class="slider" >     
+                    <ul class="slides">
+                        <li>
+                            <img src="img/home/slider/1.jpg" width="100%" alt="">
+                            <div class="caption right-align">
+                                <h1 id="titulo_inicio">La mejor tienda <br> online de tecnologia</h3>
+                                    <a href="html/cat-audifonos.html"
+                                        class="btn btn-large white black-text waves-effect waves-grey"><i class="material-icons right">send</i>Ver articulos</a>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/home/slider/2.jpg" width="100%" alt="">
+                            <div class="caption center-align">
+                                <h1>Te encanto lo Gamer</h3>
+                                    <h5 class="light grey-text text-lighten-3">Que te ofrecemos!!</h5>
+                                    <a href="html/cat-laptos.html" class="btn btn-large white black-text waves-effect waves-grey">Ver  más</a>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/home/slider/3.jpg" width="100%" alt="">
+                            <div class="caption left-align">
+                                <h3>Podras encontrar lo que buscas aqui!!</h3>
+                                <h5 class="light grey-text  blue text-lighten-3">Computadoras, telefonos, audifonos y mucho  mas..
+                                </h5>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/home/slider/4.jpg" width="100%" alt="">
+                            <div class="caption left-align">
+                                <h3 class="black-text">Cada envio es totalmente gratis</h3>
+                                <h5 class="light grey-text   purple lighten-2 text-lighten-3">Compra ya..!!!</h5>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/home/slider/5.jpg" width="100%" alt="">
+                            <div class="caption left-align">
+                                <h3>Te ofrecemos los mejores telefonos del mercado</h3>
+                                <h5 class="light grey-text text-lighten-3">La tecnologia mas cerca de ti..</h5>
+                                <a href="html/cat-telefonos.html"
+                                    class="btn btn-large white black-text waves-effect waves-grey">Ver
+                                    más</a>
+                            </div>
+                        </li>
+                    </ul>
+                </section> <!--  FIN DE SLIDER  -->
+            </div>
+        </div>
+
+
+
+        <div>
+            <!-- SECCION DE PANEL DE CATEGORIAS Y MAS ABAJO Y QUE TE OFRECEMOS -->
+            <section>
+                <div class="row ">
+
+                    <div class="col s5 m2  l2">
+
+                        <div class="card ">
+                            <div class="card-image">
+                                <img src="img/panelpequeño/p1.jpg" width="100%" alt="">
+
+                            </div>
+
+                            <div class="card-content">
+                                <!-- INICIO -->
+                                <center>
+                                    <a class="btn-small dropdown-trigger pink" href="#" data-target="panel_mascosas"
+                                        class="waves-effect" data-beloworigin="true">Mas productos
+                                        <i class="material-icons right">arrow_drop_down</i></a>
+                                    <ul id="panel_mascosas" class="dropdown-content">
+                                        <li><a href="html/cat-audifonos.html" class="waves-effect waves-red"><i
+                                                    class="material-icons">headset</i>Audifonos</a></li>
+                                        <li class="divider"></li>
+                                        <li><a href="html/cat-impresoras.html" class="waves-effect waves-red"><i
+                                                    class="material-icons">local_printshop</i>Impresora</a></li>
+                                        <li><a href="html/cat-mouse.html" class="waves-effect waves-red"><i
+                                                    class="material-icons">mouse</i>Mouses</a></li>
+
+                                    </ul> <!-- fin de categorias -->
+
+
+                                </center>
+                            </div>
+                            <div class="card-image">
+                                <img src="img/panelpequeño/p2.jpg" width="100%" alt="">
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!--   SECCION QUE TE OFRECEMOS  -->
+
+                    <div class="section">
+                        <div class="row">
+                            <div class="con s3 m8 ">
+                                <h2 class="center" id="titulo_queteofrecemos">¿Que podras encontrar en este sitio...?
+                                </h2>
+                            </div>
+                            <div class="col s12 m3">
+
+                                <div class="icon-block">
+                                    <h2 class="center black-text"><i class="material-icons">laptop_windows</i></h2>
+                                    <h5 class="center">Computadoras portatiles</h5>
+
+                                    <p class="light">“El ordenador nació para resolver problemas que antes no existían.”
+                                        <br> este sitio web podra encontrar una gran variedad de computadores
+                                        portatiles
+                                        que seran de tu agrado, con un diseño innovador y con precios muy accesibles.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col s12 m3 ">
+                                <div class="icon-block">
+                                    <h2 class="center black-text"><i class="material-icons">phone_android</i></h2>
+                                    <h5 class="center">Dispositivos moviles</h5>
+
+                                    <p class="light">“Uno jamás pierde de vista su celular. Su ropa deportiva tiene un
+                                        bolsillo especial para contenerlo, y salir a correr con ese bolsillo vacío sería
+                                        como salir descalzo. De hecho, usted no va a ninguna parte sin su celular
+                                        (ninguna
+                                        parte es, en realidad, un espacio sin celular no es lo mismo</p>
+                                </div>
+                            </div>
+
+                            <div class="col s12 m3">
+                                <div class="icon-block">
+                                    <h2 class="center black-text"><i class="material-icons">streetview</i></h2>
+                                    <h5 class="center">Y muchas cosas mas..!!</h5>
+
+                                    <p class="light">Tambien te ofrecemos una gran variedad de productos en el ambito
+                                        tecnólogico como audifonos, impresoras, mouses y mucho mas.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section> <!-- FIN DE SECCION DE PANEL DE CATEGORIAS Y MAS ABAJO Y QUE TE OFRECEMOS -->
+
+            <div class="container section ">
+
+                <div class="row">
+                    <div class="col s12 m6 ">
+                        <div class="slider">
+                            <ul class="slides">
+                                <li>
+                                    <img src="img/home/img-abajoslider/1.jpg" width="100%" alt="">
+                                    <div class="caption center-align">
+                                        <h3 class="black-text">Ayudanos a saber mas de ti..!!!</h3>
+                                        <a href="Encuesta.html"
+                                            class="btn btn-large white black-text waves-effect waves-grey"><i
+                                                class="material-icons right">send</i>Ir a encuesta</a>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="img/home/img-abajoslider/2.jpg" width="100%" alt="">
+                                    <div class="caption center-align">
+                                        <h3 class="pink darken-4 write-text">Las mejores laptos del la actualidad</h3>
+                                        <a href="html/cat-laptos.html"
+                                            class="btn btn-large white black-text waves-effect waves-grey"><i
+                                                class="material-icons right">send</i>Ver articulos</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col s12 m6">
+                        <br>
+                        <img src="img/home/img-abajoslider/b1.jpg" width="100%" alt="" class=" responsive-img">
+                        <br>
+                        <img src="img/home/img-abajoslider/b2.jpg" width="100%" alt="" class="responsive-img">
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+            <section>
+                <!-- SECCION DE TELEFONOS -->
+                <section id="apartado_telefonos">
+                    <div class="container">
+                        <h4 class="left-align" id="titulo_queteofrecemos">Telefonos</h4>
+                        <h6><a class="blue-text " href="html/cat-telefonos.html">Ver todos</a></h6>
+                        <div class="row">
+
+                            <div class="col s10 m12 l12">
+                                <div class="col s12 m3">
+                                    <div class="card">
+                                        <div class="card-image">
+                                            <img src="img/home/cads-telefonos/t1.png" class="responsive-img"
+                                                width="100%" alt="">
+                                            <a class="btn-floating halfway-fab waves-effect waves-light blue darken-1"
+                                                href="html/det_tel1.html"><i
+                                                    class="material-icons">remove_red_eye</i></a>
+                                        </div>
+                                        <center><span class="card-title black-text">$7,199 </center>
+                                        <div class="card-content">
+                                            <p>Samsung Galaxy A51 128 GB Prism crush white 4 GB RAM</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="col s12 m3">
+                                    <div class="card">
+                                        <div class="card-image">
+                                            <img src="img/home/cads-telefonos/t2.png" class="responsive-img"
+                                                width="100%" alt="">
+                                            <a class="btn-floating halfway-fab waves-effect waves-light blue darken-1"
+                                                href="html/det_tel2.html"><i
+                                                    class="material-icons">remove_red_eye</i></a>
+                                        </div>
+                                        <center><span class="card-title black-text">$51,999<br> </span>
+                                        </center>
+                                        <div class="card-content">
+                                            <p>iPhone 11 Pro Max 512 GB Verde medianoche 4 GB RAM</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="col s12 m3">
+                                    <div class="card">
+                                        <div class="card-image">
+                                            <img src="img/home/cads-telefonos/t3.png" class="responsive-img">
+                                            <a class="btn-floating halfway-fab waves-effect waves-light blue darken-1"
+                                                href="html/det-tel4.html"><i
+                                                    class="material-icons">remove_red_eye</i></a>
+                                        </div>
+                                        <center><span class="card-title black-text">$2,800 <br></span>
+                                        </center>
+                                        <div class="card-content">
+                                            <p>Xiaomi Redmi 8A Dual SIM 32 GB Azul océano 2 GB RAM</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="col s12 m3">
+                                    <div class="card">
+                                        <div class="card-image">
+                                            <img src="img/home/cads-telefonos/t4.png" class="responsive-img"
+                                                width="100%" alt="">
+                                            <a class="btn-floating halfway-fab waves-effect waves-light blue darken-1"
+                                                href="html/det-tel3.html"><i
+                                                    class="material-icons">remove_red_eye</i></a>
+                                        </div>
+                                        <center><span class="card-title black-text">$3,999 <br></span>
+                                        </center>
+                                        <div class="card-content">
+                                            <p>Samsung Galaxy M11 32 GB Negro 3 GB RAM</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                </section>
+
+
+                <br>
+                <!-- SECCION DE COMPUTADORAS -->
+                <section id="apartado_computadoras">
+                    <div class="container">
+                        <h4 class="left-align" id="titulo_queteofrecemos">Computadoras portatiles</h4>
+                        <h6><a class="blue-text " href="html/cat-laptos.html">Ver todos</a></h6>
+                        <div class="row">
+
+
+                            <div class="col s12 m3">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="img/home/cards-computadoras/pc1.png" class="responsive-img"
+                                            width="100%" alt="">
+                                        <a class="btn-floating halfway-fab waves-effect waves-light blue darken-1"
+                                            href="html/det-lap1.html"><i class="material-icons">remove_red_eye</i></a>
+                                    </div>
+                                    <center><span class="card-title black-text">$14,699 <br></span>
+                                    </center>
+                                    <div class="card-content">
+                                        <p>Laptop Dell Latitude 3400 14 Intel Core I5 8265u 8gb 1 Tb<br><br></p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col s12 m3">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="img/home/cards-computadoras/pc33.png" class="responsive-img"
+                                            width="100%" alt="">
+                                        <a class="btn-floating halfway-fab waves-effect waves-light blue darken-1"
+                                            href="html/det-lap2.html"><i class="material-icons">remove_red_eye</i></a>
+                                    </div>
+                                    <center><span class="card-title black-text">$4,599<br></span> </center>
+                                    <div class="card-content">
+                                        <p>Laptop Hp Chromebook 14 32gb Ssd Amd A4 14-db0023dx<br><br><br></p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col s12 m3">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="img/home/cards-computadoras/pc2.jpg" class="responsive-img"
+                                            width="100%" alt="">
+                                        <a class="btn-floating halfway-fab waves-effect waves-light blue darken-1"
+                                            href="html/det-lap3.html"><i class="material-icons">remove_red_eye</i></a>
+                                    </div>
+                                    <center><span class="card-title black-text">$12,299 <br> </span>
+                                    </center>
+                                    <div class="card-content">
+                                        <p>Laptop Hp Core I5 14-dq1003la Ci5 256gb Ssd 4gb Ram+ Optane<br><br><br></p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col s12 m3">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="img/home/cards-computadoras/pc4.jpg" class="responsive-img"
+                                            width="100%" alt="">
+                                        <a class="btn-floating halfway-fab waves-effect waves-light blue darken-1"
+                                            href="html/det-lap4.html"><i class="material-icons">remove_red_eye</i></a>
+                                    </div>
+                                    <center><span class="card-title black-text">$6,399<br> </span> </center>
+                                    <div class="card-content">
+                                        <p>Laptop Intel Dual Core 4gb Ram 500gb W10 Vorago Alpha Hdmi<br>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                </section>
+
+
+
+
+                <!-- SECCION DE AUDIFONOS -->
+                <section id="apartado_audifonos">
+                    <div class="container">
+                        <h4 class="left-align" id="titulo_queteofrecemos">Audifonos</h4>
+                        <h6><a class="blue-text " href="html/cat-audifonos.html">Ver todos</a></h6>
+                        <div class="row">
+
+
+                            <div class="col s12 m3">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="img/home/cards-audifonos/a1.png" class="responsive-img" width="100%"
+                                            alt="">
+                                        <a class="btn-floating halfway-fab waves-effect waves-light blue darken-1"
+                                            href="html/det-aud1.html"><i class="material-icons">remove_red_eye</i></a>
+                                    </div>
+                                    <center><span class="card-title black-text">$399 <br> </span> </center>
+                                    <div class="card-content">
+                                        <p>Audífonos gamer Eagle Warrior HS-501 negro y rojo<br><br></p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col s12 m3">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="img/home/cards-audifonos/a2.png" class="responsive-img" width="100%"
+                                            alt="">
+                                        <a class="btn-floating halfway-fab waves-effect waves-light blue darken-1"
+                                            href="html/det-aud2.html"><i class="material-icons">remove_red_eye</i></a>
+                                    </div>
+                                    <center><span class="card-title black-text">$3,199 <br></span>
+                                    </center>
+                                    <div class="card-content">
+                                        <p>Audífonos gamer Razer Kraken Kitty black y rgb<br><br></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col s12 m3">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="img/home/cards-audifonos/a3.jpg" class="responsive-img" width="100%"
+                                            alt="">
+                                        <a class="btn-floating halfway-fab waves-effect waves-light blue darken-1"
+                                            href="html/det-aud3.html"><i class="material-icons">remove_red_eye</i></a>
+                                    </div>
+                                    <center><span class="card-title black-text">$299 <br> </span> </center>
+                                    <div class="card-content">
+                                        <p>Audífonos inalámbricos Tedge Auricular Bluetooth negro</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col s12 m3">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="img/home/cards-audifonos/a4.png" class="responsive-img" width="100%"
+                                            alt="">
+                                        <a class="btn-floating halfway-fab waves-effect waves-light blue darken-1"
+                                            href="html/det-aud4.html"><i class="material-icons">remove_red_eye</i></a>
+                                    </div>
+                                    <center><span class="card-title black-text">$338 <br></span> </center>
+                                    <div class="card-content">
+                                        <p>Audífonos Apple EarPods 3.5 mm Connector blanco<br><br></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                </section>
+
+
+                <!-- SECCION DE TECLADOS -->
+                <section id="apartado_teclados">
+                    <div class="container">
+                        <h4 class="left-align" id="titulo_queteofrecemos">Teclados</h4>
+                        <h6><a class="blue-text " href="">Ver todos</a></h6>
+                        <div class="row">
+
+
+                            <div class="col s12 m3">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="img/home/cards-teclados/t1.png" class="responsive-img" width="100%"
+                                            alt="">
+                                        <a class="btn-floating halfway-fab waves-effect waves-light blue darken-1"
+                                            href="html/det-tec1.html"><i class="material-icons">remove_red_eye</i></a>
+                                    </div>
+                                    <center><span class="card-title black-text">$109 <br> </span> </center>
+                                    <div class="card-content">
+                                        <p>Teclado Usb Gio K11 Slim Waterproof Laptop Pc<br><br><br></p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col s12 m3">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="img/home/cards-teclados/t2.png" class="responsive-img" width="100%"
+                                            alt="">
+                                        <a class="btn-floating halfway-fab waves-effect waves-light blue darken-1"
+                                            href="html/det-tec2.html"><i class="material-icons">remove_red_eye</i></a>
+                                    </div>
+                                    <center><span class="card-title black-text">$1,392.94 <br></span>
+                                    </center>
+                                    <div class="card-content">
+                                        <p>Teclado para pc QWERTY Ajazz AK33 Ajazz Blue inglés US negro con luz
+                                            RGB<br><br>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col s12 m3">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="img/home/cards-teclados/t3.png" class="responsive-img" width="100%"
+                                            alt="">
+                                        <a class="btn-floating halfway-fab waves-effect waves-light blue darken-1"
+                                            href="html/det-tec3.html"><i class="material-icons">remove_red_eye</i></a>
+                                    </div>
+                                    <center><span class="card-title black-text">$1,397.26 <br></span>
+                                    </center>
+                                    <div class="card-content">
+                                        <p>Teclado para pc QWERTY Motospeed CK62 OUTEMU Blue inglés US blanco con luz
+                                            RGB<br></p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col s12 m3">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="img/home/cards-teclados/t4.jpg" class="responsive-img" width="100%"
+                                            alt="">
+                                        <a class="btn-floating halfway-fab waves-effect waves-light blue darken-1"
+                                            href="html/det-tec4.html"><i class="material-icons">remove_red_eye</i></a>
+                                    </div>
+                                    <center><span class="card-title black-text">$1,100 <br> </span>
+                                    </center>
+                                    <div class="card-content">
+                                        <p>Teclado para pc QWERTY YeYian Serie 2000 Flare OUTEMU Red español españa
+                                            negro
+                                            con luz RGB<br></p>
+                                    </div>
+                                </div>
+                            </div>
+                </section>
+
+
+                <!-- SECCION DE Impresoras -->
+                <section id="apartado_teclados">
+                    <div class="container">
+                        <h4 class="left-align" id="titulo_queteofrecemos">Impresoras</h4>
+                        <h6><a class="blue-text " href="html/cat-impresoras.html">Ver todos</a></h6>
+                        <div class="row">
+
+
+                            <div class="col s12 m3">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="img/home/cards-impresoras/im1.png" class="responsive-img" width="100%"
+                                            alt="">
+                                        <a class="btn-floating halfway-fab waves-effect waves-light blue darken-1"
+                                            href="html/det-imp1.html"><i class="material-icons">remove_red_eye</i></a>
+                                    </div>
+                                    <center><span class="card-title black-text">$3,510 <br>
+                                    </center>
+                                    <div class="card-content">
+                                        <p>Impresora a color multifunción Brother DCP-T3 Series DCP-T310 220V
+                                            negra<br><br><br>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col s12 m3">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="img/home/cards-impresoras/im2.png" class="responsive-img" width="100%"
+                                            alt="">
+                                        <a class="btn-floating halfway-fab waves-effect waves-light blue darken-1"
+                                            href="html/det-imp2.html"><i class="material-icons">remove_red_eye</i></a>
+                                    </div>
+                                    <center><span class="card-title black-text">$3,950 <br></span>
+                                    </center>
+                                    <div class="card-content">
+                                        <p>Impresora a color multifunción Brother DCP-T5 Series DCP-T510W con wifi 110V
+                                            negra<br></p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col s12 m3">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="img/home/cards-impresoras/im3.png" class="responsive-img" width="100%"
+                                            alt="">
+                                        <a class="btn-floating halfway-fab waves-effect waves-light blue darken-1"
+                                            href="html/det-imp3.html"><i class="material-icons">remove_red_eye</i></a>
+                                    </div>
+                                    <center><span class="card-title black-text">$4,399 <br></span>
+                                    </center>
+                                    <div class="card-content">
+                                        <p>Impresora a color multifunción Epson EcoTank L3150 con wifi 220V
+                                            negra<br><br>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col s12 m3 ">
+                                <div class="card ">
+                                    <div class="card-image ">
+                                        <img src="img/home/cards-impresoras/im4.png" class="responsive-img" width="100%"
+                                            alt="">
+                                        <a class="btn-floating halfway-fab waves-effect waves-light blue darken-1"
+                                            href="html/det-imp4.html"><i class="material-icons">remove_red_eye</i></a>
+                                    </div>
+                                    <center><span class="card-title black-text">$1,299<br></span> </center>
+                                    <div class="card-content">
+                                        <p class="">Impresora Xerox Phaser 3020/BI con wifi 110V - 127V blanca y
+                                            azul<br><br></p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                </section>
+
+                <!-- SECCION DE MOUSES -->
+                <section id="apartado_mouse">
+                    <div class="container">
+                        <h4 class="left-align" id="titulo_queteofrecemos">Mouses</h4>
+                        <h6><a class="blue-text " href="html/cat-mouse.html">Ver todos</a></h6>
+                        <div class="row">
+
+
+                            <div class="col s12 m3">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="img/home/cards-mouses/m1.png" class="responsive-img" width="100%"
+                                            alt="">
+                                        <a class="btn-floating halfway-fab waves-effect waves-light blue darken-1"
+                                            href="html/det-mouse1.html"><i class="material-icons">remove_red_eye</i></a>
+                                    </div>
+                                    <center><span class="card-title black-text">$189.99 <br></span> </center>
+                                    <div class="card-content">
+                                        <p>Mouse de juego Eagle Warrior G13 negro</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col s12 m3">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="img/home/cards-mouses/m2.png" class="responsive-img">
+                                        <a class="btn-floating halfway-fab waves-effect waves-light blue darken-1"
+                                            href="html/det-mouse2.html"><i class="material-icons">remove_red_eye</i></a>
+                                    </div>
+                                    <center><span class="card-title black-text">$99 <br> </span> </center>
+                                    <div class="card-content"><br><br>
+                                        <p>Mouse Inalámbrico Usb Gio W120<br><br></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col s12 m3">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="img/home/cards-mouses/m3.png" class="responsive-img">
+                                        <a class="btn-floating halfway-fab waves-effect waves-light blue darken-1"
+                                            href="html/det-mouse3.html"><i class="material-icons">remove_red_eye</i></a>
+                                    </div>
+                                    <center><span class="card-title black-text">$313.64 <br> </span>
+                                    </center>
+                                    <div class="card-content">
+                                        <br>
+                                        <p>Mouse de juego inalámbrico Free Wolf X8 black<br></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col s12 m3">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="img/home/cards-mouses/m4.png" class="responsive-img">
+                                        <a class="btn-floating halfway-fab waves-effect waves-light blue darken-1"
+                                            href="html/det-mouse3.html"><i class="material-icons">remove_red_eye</i></a>
+                                    </div>
+                                    <center><span class="card-title black-text">$1,299 <br></span>
+                                    </center>
+                                    <div class="card-content">
+                                        <p>Mouse Gamer Logitech G502 Hero</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                </section>
+
+            </section>
+
+
+
+
+            <!-- BOTTON DE REDES SOCIALES -->
+            <div class=" fixed-action-btn  ">
+                <a class="btn-floating pink accent-3 btn-large left-align"><i
+                        class="material-icons large">person_add</i></a>
+                <ul class="boton_redessocial">
+                    <li><a href="https://www.facebook.com/Ancma-Systems-Oficial-107359577744912/"
+                            class="btn-floating pulse indigo darken-3"><i class="fa fa-facebook"></i></a>
+                        Facebook
+                    </li>
+                    <li><a href="https://twitter.com/AncmaSystems" class="btn-floating pulse light-blue darken-3"><i
+                                class="fa fa-twitter"></i></a>
+                        Twitter
+                    </li>
+                    <li><a href="https://www.youtube.com/channel/UC7fEzvSe08Tc-rIsQLH4cVw/videos"
+                            class="btn-floating pulse red darken-3"><i class="fa fa-youtube"></i></a> Youtube
+                    </li>
+                    <li><a href="https://www.instagram.com/ancmasystems/" class="btn-floating pulse brown darken-3"><i
+                                class="fa fa-instagram"></i></a>
+                        Instagram
+                    </li>
+
+
+                </ul>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+    </div>
+ 
+    <div class="parallax-container" id="paralaxfinal">
+        <div class="parallax"><img src="img/paralax.jpg"></div>
+    </div>
+    
+    <footer class="page-footer b teal darken-3">
+        <div class="container">
+            <div class="row">
+                <div class="col l3 s6">
+                    <h5 class=" white-text ">El mejor sitio para comprar</h5>
+                    <p class="grey-text text-lighten-4">Acma System un sitio que te ofrece los mejores
+                        productos de calidad en el ambito de la tecnologia</p>
+                </div>
+
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Si quieres conocernos da clic a los links de abajo</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Sobre nosotros</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Nuestra ubicación</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                &copy; Copyright 2016-2020 DeRemate.com de México S. de R.L. de C.V.
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- Enlaces Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-database.js"></script>
+    <!-- Archivos externos -->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/estilos.js"></script>
+
+</body>
+</html>
